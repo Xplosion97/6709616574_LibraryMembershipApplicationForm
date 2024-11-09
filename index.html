@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dream Library Register!</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="icon" type="img/x-icon" href="resources/images.png">
+</head>
+
+<body>
+
+    <h1>Register here&#128214;</h1>
+    <form>
+
+
+        <form target="_blank">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Full name(English):</label><br>
+                <input type="text" id="Ename" name="Ename" value="" placeholder="required" required><br>
+                <label for="name">Full name(Thai):</label><br>
+                <input type="text" id="Tname" name="Tname" value="" placeholder="required" required><br>
+                <label for="ID">Student ID:</label><br>
+                <input type="number" id="ID" name="ID" value="" placeholder="required" required><br>
+                <label for="age">Age:</label><br>
+                <input type="number" id="age" name="age" value="18" placeholder="required" required><br>
+                <label for="phone">Enter a phone number:</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="123-456-7890"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+                <label for="vert">Personal(introvert-extrovert):</label>
+                <input type="range" id="vert" name="vert" min="1" max="10"><br><br>
+                <label for="faculty">Choose a Faculty:</label>
+                <select id="faculty" name="faculty">
+                    <option value="Law">Faculty of Law</option>
+                    <option value="Commerce and Accountancy">Faculty of Commerce and Accountancy</option>
+                    <option value="Political Science">Faculty of Political Science</option>
+                    <option value="Economics">Faculty of Economics</option>
+                    <option value="Social Work">Faculty of Social Work</option>
+                    <option value="Sociology and Anthropology">Faculty of Sociology and Anthropology</option>
+                    <option value="Liberal Arts">Faculty of Liberal Arts</option>
+                    <option value="Journalism and Mass Communication">Faculty of Journalism and Mass Communication
+                    </option>
+                    <option value="Science and Technology">Faculty of Science and Technology</option>
+                    <option value="Engineering">Faculty of Engineering</option>
+                    <option value="Architecture and Urban Planning">Faculty of Architecture and Urban Planning</option>
+                    <option value="Fine and Applied Arts">Faculty of Fine and Applied Arts</option>
+                    <option value="Medicine">Faculty of Medicine</option>
+                    <option value="Allied Health Sciences">Faculty of Allied Health Sciences</option>
+                    <option value="Dentistry">Faculty of Dentistry</option>
+                    <option value="Nursing">Faculty of Nursing</option>
+                    <option value="Public Health">Faculty of Public Health</option>
+                    <option value="Pharmacy">Faculty of Pharmacy</option>
+                    <option value="Learning Sciences and Education">Faculty of Learning Sciences and Education</option>
+
+                </select><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" value="" placeholder="required" required><br><br>
+                <label for="gender">Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br><br>
+                <label for="date">Date of birth&#129473;:</label>
+                <input type="date" id="date" name="date" required> <br><br>
+            </fieldset>
+            <fieldset>
+                <legend>About Library</legend>
+                <label for="book">type of fav book&#128150;:</label>
+                <select id="book" name="book">
+                    <option value="Science">Science and technology</option>
+                    <option value="history">history and culture</option>
+                    <option value="education">education and learning</option>
+                    <option value="Business">Business and Finance</option>
+                    <option value="health">health and care</option>
+                    <option value="Religion">Religion and Philosophy</option>
+                </select><br><br>
+                <label for="terms">terms & conditions:</label>
+                <input type="checkbox" id="terms" name="terms" value="yes"><br><br>
+                <label for="news">Receive <a href="https://library.tu.ac.th/">news</a> in email:</label>
+                <input type="checkbox" id="news" name="news" value="yes"><br><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+
+    </form>
+
+</body>
+
+</html>
