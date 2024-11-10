@@ -1,0 +1,41 @@
+body {
+    background-color: rgba(238, 209, 193, 0.785);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1 {
+    text-align: center;
+}
+.article {
+    float: left;
+    width: 25%;
+    text-align: center;
+    background-color: rgb(221, 203, 195);
+    height: 100%;
+}
+.aside {
+    text-align: center;
+    float: left;
+    background-color: #efdada;
+    width: 50%;
+}
+.div {
+    float: right;
+    width: 25%;
+    text-align: center;
+    background-color: #bea6a6;
+}
+h3 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header {
+    color: rgb(73, 62, 62);
+    background-color: #efdada;
+}
+.footer {
+
+    text-shadow: #efdada;
+    color: rgb(73, 62, 62);
+    clear: both;
+    background-color:#efdada
+}
